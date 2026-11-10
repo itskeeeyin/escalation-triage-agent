@@ -21,7 +21,7 @@ in the detailed report does not earn the evidence point.
 - **Controlled check.** The rules correctly described the script assigning
   503 before and 200 after, with the expected value fixed at 200. Gemini
   reported the recovery but treated the simulated value as an HTTP
-  response whose origin needed explaining. [Failed run](https://github.com/cianlabs/escalation-triage-agent/actions/runs/41549968399) · [Passing run](https://github.com/cianlabs/escalation-triage-agent/actions/runs/41550790225)
+  response whose origin needed explaining. [Failed run](https://github.com/itskeeeyin/escalation-triage-agent/actions/runs/41549968399) · [Passing run](https://github.com/itskeeeyin/escalation-triage-agent/actions/runs/41550790225)
 - **Qwen timeout.** Gemini named the reported artifact download timeout
   and left its underlying cause open. The rules showed the timeout
   only in the detailed report. [Failed run](https://github.com/QwenLM/qwen-code/actions/runs/37119220504) · [Passing run](https://github.com/QwenLM/qwen-code/actions/runs/37142411422)

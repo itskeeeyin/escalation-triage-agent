@@ -1,7 +1,7 @@
 # Inspect one public workflow run
 
 ```sh
-python agent.py --workflow-run https://github.com/cianlabs/escalation-triage-agent/actions/runs/41376006131
+python agent.py --workflow-run https://github.com/itskeeeyin/escalation-triage-agent/actions/runs/41376006131
 ```
 
 Replace the URL with a public GitHub Actions run page. The program reads that specific run and its jobs. It does not use the provider's overall status to explain an individual run, and it does not use practice clues. The URL must be a normal HTTPS github.com run URL, without query strings, fragments, credentials, job suffixes or attempt suffixes. Private repositories and authenticated requests are not supported.
@@ -64,7 +64,7 @@ Pass the earlier run first and the later run second. Both must be distinct
 public run URLs from the same repository.
 
 ```sh
-python agent.py --compare-runs https://github.com/cianlabs/escalation-triage-agent/actions/runs/41549968399 https://github.com/cianlabs/escalation-triage-agent/actions/runs/41550790225
+python agent.py --compare-runs https://github.com/itskeeeyin/escalation-triage-agent/actions/runs/41549968399 https://github.com/itskeeeyin/escalation-triage-agent/actions/runs/41550790225
 ```
 
 The demo shows `check-response` changing from failure to success and includes
