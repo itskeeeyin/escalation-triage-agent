@@ -4,7 +4,7 @@ Working notes for the approximately 48-hour session spanning November 1–3,
 2026. These notes summarize the work recorded in this chat. The dates are
 a session window, and the results below are individual experiments.
 
-Repository: cianlabs/escalation-triage-agent
+Repository: itskeeeyin/escalation-triage-agent
 
 ## What we built
 
@@ -35,8 +35,8 @@ an error annotation. The user changed observed to 200, and the next run passed.
 No HTTP request was made by this check. The 503 was assigned by the script.
 This distinction became an important evaluation case for model summaries.
 
-- Failed run: https://github.com/cianlabs/escalation-triage-agent/actions/runs/41549968399
-- Passing run: https://github.com/cianlabs/escalation-triage-agent/actions/runs/41550790225
+- Failed run: https://github.com/itskeeeyin/escalation-triage-agent/actions/runs/41549968399
+- Passing run: https://github.com/itskeeeyin/escalation-triage-agent/actions/runs/41550790225
 - Demo branch: demo/controlled-http-failure
 
 The comparison showed the failed step, the reported mismatch, the passing

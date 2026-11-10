@@ -26,10 +26,10 @@ value stayed fixed. It also treated the origin of the 503 as unknown,
 although the workflow directly assigned it. Its general caution about
 passing runs did not correct that mistake.
 
-[Failed run](https://github.com/cianlabs/escalation-triage-agent/actions/runs/41549968399)
-· [Passing run](https://github.com/cianlabs/escalation-triage-agent/actions/runs/41550790225)
-· [Before workflow](https://github.com/cianlabs/escalation-triage-agent/blob/773f903cc3c5e7f56974692a541bb2210c5857be/.github/workflows/controlled-failure.yml#L13-L15)
-· [After workflow](https://github.com/cianlabs/escalation-triage-agent/blob/53891d56d79cc5511565a90f43394bad5fc04251/.github/workflows/controlled-failure.yml#L13-L15)
+[Failed run](https://github.com/itskeeeyin/escalation-triage-agent/actions/runs/41549968399)
+· [Passing run](https://github.com/itskeeeyin/escalation-triage-agent/actions/runs/41550790225)
+· [Before workflow](https://github.com/itskeeeyin/escalation-triage-agent/blob/773f903cc3c5e7f56974692a541bb2210c5857be/.github/workflows/controlled-failure.yml#L13-L15)
+· [After workflow](https://github.com/itskeeeyin/escalation-triage-agent/blob/53891d56d79cc5511565a90f43394bad5fc04251/.github/workflows/controlled-failure.yml#L13-L15)
 
 ## Next cases
 

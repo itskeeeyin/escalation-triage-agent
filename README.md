@@ -59,9 +59,9 @@ Streamlit prints a local URL, usually http://127.0.0.1:8501. No key means practi
 
 **What you still click, once, on share.streamlit.io.** This repo cannot create the Cloud app for you. Do this after this change is on `main` (or point the branch at the pull request branch if you want to try it first).
 
-1. Open https://share.streamlit.io/ and sign in with GitHub as the account that can read `cianlabs/escalation-triage-agent`.
+1. Open https://share.streamlit.io/ and sign in with GitHub as the account that can read `itskeeeyin/escalation-triage-agent`.
 2. Click **Create app**.
-3. Repository: `cianlabs/escalation-triage-agent`.
+3. Repository: `itskeeeyin/escalation-triage-agent`.
 4. Branch: `main`.
 5. Main file path: `streamlit_app.py`.
 6. Leave the app public. This demo does not need extra Python packages beyond `requirements.txt`. Leave Secrets empty for practice mode.
@@ -208,7 +208,7 @@ reviews it. See [the evaluation notes](docs/RUNBOOK_EVALUATION.md).
 ## Inspect a specific public Actions run
 
 ```sh
-.venv/bin/python agent.py --workflow-run https://github.com/cianlabs/escalation-triage-agent/actions/runs/41376006131
+.venv/bin/python agent.py --workflow-run https://github.com/itskeeeyin/escalation-triage-agent/actions/runs/41376006131
 ```
 
 Use a public workflow-run URL to read its current state, jobs and any reported pending deployment gates. Queued does not mean stuck, and waiting does not automatically mean human approval. Jobs are tied to the reported attempt, and a second run read detects changes during collection. Missing or partial details stay unknown. No logs are downloaded, no credentials or models are used, no actions run and no cause is confirmed.
